@@ -5,6 +5,7 @@
 module.exports = {
   router: {
     linkActiveClass: 'active',
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
       
     // 自定义路由表规则
     extendRoutes (routes, resolve) {
